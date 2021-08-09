@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+</head>
+<body>
+	<script>
+		const movie = "seven"
+		const song = "Englishman in Newyork"
+		const food = "Korean food"
+		const game = "League of Legends"
+		let flag = true
+
+		let choice = confirm("Do you want to be my friend?")
+
+		if(choice){
+			let user_movie = prompt("What is your favorite movie?")
+			if (movie == user_movie) {
+				alert("Mine too!")
+			} else {
+				alert("I hate that one!")
+				flag = false;
+			}
+
+			let user_song = prompt("What is your favorite song?")
+			if (song == user_song) {
+				alert("Mine too!")
+			} else {
+				alert("I hate that one!")
+				flag = false;
+			}
+
+			let user_food = prompt("What is your favorite food?")
+			if (food == user_food) {
+				alert("Mine too!")
+			} else {
+				alert("I hate that one!")
+				flag = false;
+			}
+
+			let user_game = prompt("What is your favorite game?")
+			if (game == user_game) {
+				alert("Mine too!")
+			} else {
+				alert("I hate that one!")
+				flag = false;
+			}
+
+			if (flag) {
+				alert("We are now best friends forever!")
+			}
+		}
+
+
+	</script>
+</body>
+</html>
